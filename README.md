@@ -37,6 +37,6 @@ npm start
 
 ## Preview
 
-![Music Library](https://media.giphy.com/media/dsf70QzMGgTkAcgVtk/giphy.gif)
+![Music Library](https://media.giphy.com/media/dsf70QzMGgTkAcgVtk/giphy-downsized-large.gif)
 
 
