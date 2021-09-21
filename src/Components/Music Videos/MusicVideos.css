@@ -1,0 +1,19 @@
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.multiselect {
+  padding-top: 1%;
+  padding-left: 5%;
+  width: 35%;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
+  .multiselect {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 250px;
+  }
+}

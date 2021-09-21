@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FallbackError should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+       Something went wrong
+    </h1>
+    <h3>
+      Please try again 
+    </h3>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FallbackError should take a snapshot of component 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+       Something went wrong
+    </h1>
+    <h3>
+      Please try again 
+    </h3>
+  </div>
+</DocumentFragment>
+`;
