@@ -68,7 +68,7 @@ describe('VideoCard', () => {
     });
   });
 
-  xit('Should take a snapshot of component', () => {
+  it('Should take a snapshot of component', () => {
     const { asFragment } = render(<VideoCard video={video} />);
 
     expect(asFragment()).toMatchSnapshot();

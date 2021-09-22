@@ -7,54 +7,15 @@ exports[`VideoCard Should take a snapshot of component 1`] = `
     data-testid="grid"
   >
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-fullHeightCard-42 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-fullHeightCard-49 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        class="MuiCardMedia-root makeStyles-musicMedia-40"
+        class="MuiCardMedia-root makeStyles-musicMedia-47"
         data-testid="image"
         style="background-image: url(https://raw.githubusercontent.com/XiteTV/frontend-coding-exercise/679a82b1e7110c16e14412f1debaa118c10078a9/images/877825/images/app/w522_h292.jpg); width: 200px; height: 200px;"
       />
       <div
-        class="MuiCardContent-root makeStyles-musicContent-41"
-        data-testid="card-content"
-      >
-        <h2
-          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
-        >
-          Beautiful Trauma
-        </h2>
-        <h5
-          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
-        >
-          artitst: P!nk
-        </h5>
-        <h6
-          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
-        >
-          Year: 2017
-        </h6>
-      </div>
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`VideoCard should take a snapshot of component 1`] = `
-<DocumentFragment>
-  <div
-    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
-    data-testid="grid"
-  >
-    <div
-      class="MuiPaper-root MuiCard-root makeStyles-fullHeightCard-42 MuiPaper-elevation1 MuiPaper-rounded"
-    >
-      <div
-        class="MuiCardMedia-root makeStyles-musicMedia-40"
-        data-testid="image"
-        style="background-image: url(https://raw.githubusercontent.com/XiteTV/frontend-coding-exercise/679a82b1e7110c16e14412f1debaa118c10078a9/images/877825/images/app/w522_h292.jpg); width: 200px; height: 200px;"
-      />
-      <div
-        class="MuiCardContent-root makeStyles-musicContent-41"
+        class="MuiCardContent-root makeStyles-musicContent-48"
         data-testid="card-content"
       >
         <h2
