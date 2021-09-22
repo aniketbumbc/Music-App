@@ -16,7 +16,7 @@ describe('FallbackError', () => {
     expect(h3Element).toBeInTheDocument();
   });
 
-  it('should  have correct text for h1 and h3 element', () => {
+  it('Should  have correct text for h1 and h3 element', () => {
     render(<FallbackError />);
 
     const h1Element = screen.getByText('Something went wrong');
@@ -24,6 +24,14 @@ describe('FallbackError', () => {
 
     expect(h1Element).toBeInTheDocument();
     expect(h3Element).toBeInTheDocument();
+  });
+
+  it('Shoud not have element in the DOM', () => {
+    render(<FallbackError />);
+
+    const nullElement = screen.queryByText('Error');
+
+    expect(nullElement).not.toBeInTheDocument();
   });
 
   it('should take a snapshot of component', () => {

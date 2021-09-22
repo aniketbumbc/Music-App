@@ -49,6 +49,14 @@ describe('VideoCard', () => {
     expect(h2Element).not.toHaveTextContent('artitst: P!nk');
   });
 
+  it('Shoud not have element in the DOM', () => {
+    render(<VideoCard video={video} />);
+
+    const nullElement = screen.queryByText('Pinkw');
+
+    expect(nullElement).not.toBeInTheDocument();
+  });
+
   it('Should render correct image', () => {
     render(<VideoCard video={video} />);
 
@@ -60,7 +68,7 @@ describe('VideoCard', () => {
     });
   });
 
-  it('Should take a snapshot of component', () => {
+  xit('Should take a snapshot of component', () => {
     const { asFragment } = render(<VideoCard video={video} />);
 
     expect(asFragment()).toMatchSnapshot();
