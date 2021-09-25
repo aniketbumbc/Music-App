@@ -83,6 +83,7 @@ const MusicVideos: React.FC = () => {
                 placeholder='Genres'
                 className='basic-multi-select'
                 classNamePrefix='select'
+                test-dataid='multiselect'
                 onChange={handleSelectChange}
               />
             </div>
@@ -98,7 +99,11 @@ const MusicVideos: React.FC = () => {
                   data.videos[index].title
                     .toString()
                     .includes(searchString) && (
-                    <VideoCard video={data.videos[index]} key={video.id} />
+                    <VideoCard
+                      video={data.videos[index]}
+                      key={video.id}
+                      data-testid='videocom'
+                    />
                   )
               )}
 

@@ -7,7 +7,7 @@ export const useFetch = (baseUrl: string) => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<boolean>(false);
   useEffect(() => {
-    const source = axios.CancelToken.source();
+    let mounted = true;
     axios
       .get(baseUrl)
       .then((responese) => {
@@ -22,7 +22,8 @@ export const useFetch = (baseUrl: string) => {
         console.log(error);
       });
     return () => {
-      source.cancel();
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      mounted = false;
     };
   }, [baseUrl]);
 
